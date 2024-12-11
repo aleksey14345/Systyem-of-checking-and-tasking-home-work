@@ -5,13 +5,13 @@
   margin-top: 0px;
 }
 .nav {
-  color: blueviolet;
+  color: blue;
   margin-left: 45%;
   margin-top: 0px;
   margin-bottom: 2%;
   word-spacing: 75px;
   border-bottom: 2px solid blue;
-  padding-bottom: 10px;
+  margin-bottom: 20px;
   
   
 }
@@ -57,6 +57,7 @@ button {
   font-family: "Koulen-Regular";
   color: white;
   border: 0px;
+  border: solid 3px black;
 }
 .cont2 {
   width: 600px;
@@ -68,14 +69,15 @@ button {
   font-family: "Koulen-Regular";
   color: white;
   border: 0px;
-  
+  border: solid 3px black;
 }
 .t1 {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   background-color: white;
   border-radius: 10px;
   margin: 40px;
+  border: solid 3px black;
 }
 .t3 {
   width: 30px;
@@ -105,20 +107,24 @@ h3 {
 .teacher {
   width: 400px;
   height: 400px;
-  margin-left: 300px;
+  margin-left: 600px;
   margin-bottom: 300px;
   margin-top: 100px;
+  border: solid 5px black;
 }
 .student {
   width: 400px;
   height: 400px;
-  margin-left: 450px;
+  margin-left: 550px;
   margin-bottom: 300px;
   margin-top: 100px;
+  border: solid 5px black;
 }
 h1 {
 font-size: 50px;
 font-family: "Koulen-Regular";
+
+
 }
 
 .login {
@@ -127,6 +133,8 @@ font-family: "Koulen-Regular";
   background-color:  rgb(105, 158, 250);
 margin-left: 500px;
 border-radius: 50px;
+margin-bottom: 500px;
+margin-left: 30%;
 }
 h5{
   font-size: 20px;
@@ -166,17 +174,22 @@ h2 {
   
 }
 .log{
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  margin-left: 880px;
+  width: 120px;
+  height: 120px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 115%;
   border-radius: 50px;
+  padding-bottom: 100px;
+  background-color:rgb(105, 158, 250); ;
 }
 .enter {
+  margin-bottom: 10px;
   width: 80px;
   height: 80px;
   border-radius: 30px;
   transform: rotate(270deg);
+  margin-left: 4%;
+  background-color: white;
   
 }
 
@@ -185,20 +198,40 @@ font-size: 5em;
  width:900px;
 height: 70px;
 background-color: rgb(105, 158, 250);
-margin-left: 500px;
-font-size: 80px;
+margin-left: 35%;
+padding-left: 7%;
 border-radius: 30px;
-padding-left: 40px;
+
 padding-bottom: 30px;
 padding-top: 1px;
-border: solid 1px black;
+border: solid 4px black;
+}
+.comm{
+  width: 70px;
+  height: 70px;
 }
 
-
+   table {
+    
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border-radius: 10%;
+        }
+        th, td {
+            
+            border: 1px solid  rgb(0,79,172);
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: rgb(0,79,172);
+            color: white;
+        }
 
 .acc_menu{
   margin-top: 100px;
-  margin-left: 550px;
+  margin-left: 42%;
   width: 500px;
   font-size: medium;
   height: 500px;
@@ -213,6 +246,7 @@ border: solid 1px black;
   height: 80px;
   border-radius: 30px;
   background-color: rgb(105, 158, 250);
+  border: solid 4px black;
 }
 .history {
 
@@ -221,6 +255,7 @@ border: solid 1px black;
   height: 80px;
   border-radius: 30px;
   background-color: rgb(105, 158, 250);
+  border: solid 4px black;
 }
 .add {
   font-size: large;
@@ -228,10 +263,30 @@ border: solid 1px black;
   height: 80px;
   border-radius: 30px;
   background-color: rgb(105, 158, 250);
+  border: solid 4px black;
+}
+
+.history_class{
+  width: 1200px;
+  height: 900px;
+  background-color:  rgb(105, 158, 250);
+  margin-left: 300px;
+  
+}
+table{
+  margin: auto;
+  width: 900px;
+  height: 600px;
+  background-color: white;
+  border-radius: 40px;
+  border-radius: 30px;
 }
 
 
 
+.history_class{
+  border-radius: 40px;
+}
 
 
 
@@ -248,5 +303,6 @@ border: solid 1px black;
 
   src: url("../fonts/Koulen-Regular.ttf") format("truetype"); 
   font-style: normal; 
-  font-weight: normal; 
+  font-weight: normal;
+  border:solid 1px black; 
 } 
